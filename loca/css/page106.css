@@ -1,0 +1,55 @@
+.contentsArea {
+	background: url('../images/common/dobira.png') no-repeat;
+	background-size: contain;
+}
+.bg {
+	position: absolute;
+	width: 768px;
+	height: 1024px;
+	background: url('../bg/page106/bg_01.png') no-repeat;
+	background-size: contain;
+	opacity: 0.4;
+}
+.wonderBox {
+	top: 646px;
+}
+.chapterNum {
+	position: absolute;
+	    top: 112px;
+	    left: 73px;
+	    width: 137px;
+	    height: 117px;
+	    background: url(../images/page106/page106_01.png) no-repeat;
+	    background-size: contain;
+}
+.mainText {
+	top: 235px;
+	left: 79px;
+}
+.mainIndex {
+	top: 385px;
+	left: 87px;
+}
+.mainIndex .orderLine {
+	position: absolute;
+top: 18px;
+left: 228px;
+width: 152px;
+height: 87px;
+background: url(../images/page106/page106_02.png) no-repeat;
+background-size: contain;
+}
+.inputText {
+	width: 504px;
+	height: 32px;
+}
+.quiz_1 .wonderTitle {
+	position: absolute;
+	top: 656px;
+	left: 120px;
+}
+.quiz_1 .textBallon {
+	left: 38px;
+	top: -12px;
+	width: 489px;
+}

@@ -1,0 +1,195 @@
+.bg {
+	position: absolute;
+	width: 768px;
+	height: 1024px;
+	background: url('../bg/page214/bg_02.png') no-repeat;
+	background-size: contain;
+	opacity: 0.4;
+}
+.contentsArea {
+	background: url(../images/common/final_bg.png) no-repeat;
+	background-size: contain;
+	background-position: 0px 0px;
+	overflow: hidden;
+}
+
+.checkBox {
+	margin-bottom: 25px;
+}
+.middleLine {
+	position: absolute;
+	top: 60px;
+	left: 384px;
+	width: 1px;
+	height: 780px;
+	background: url(../images/page158/middle.png) no-repeat;
+	background-size: contain;
+}
+.checkedDap {
+	width: 14px;
+	position: absolute;
+}
+.linkArea {
+	position: absolute;
+	font-size: 14px;
+	font-family: NanumGothicB;
+	color: #757575;
+}
+
+.checkBorder {
+	color: #0049C4;
+}
+
+
+.linkArea span:nth-child(2) {
+	font-family: NanumGothic;
+	color: #404040;
+}
+.linkBtn {
+	top: -7px;
+	left: 82px;
+}
+
+.tabArea_2 .finalBullet {
+	 background-color: #9e7427;
+}
+
+.tabArea_2 .question_1 .bogi {
+	top: 160px;
+	left: 57px;
+	width: 315px;
+	height: 165px;
+}
+.tabArea_2 .question_2 .bogi {
+	top: 421px;
+	left: 57px;
+	width: 315px;
+	height: 60px;
+}
+.tabArea_2 .question_2 .bogi .bogiContents {
+	top: 5px;
+	left: 9px;
+	width: 281px;
+	line-height: 26px;
+	text-indent: 9px;
+}
+.tabArea_2 .question_5 .bogi {
+	top: 403px;
+	left: 421px;
+	width: 292px;
+	height: 80px;
+}
+
+
+.inputTextBox_1 {
+	top: 86px;
+	left: 170px;
+	width: 25px;
+	height: 17px;
+}
+.inputTextBox_2 {
+	top: 213px;
+	left: 148px;
+	width: 25px;
+	height: 17px;
+}
+.inputTextBox_3 {
+	top: 319px;
+	left: 213px;
+	width: 82px;
+	height: 17px;
+}
+.inputTextBox_4 {
+	top: 499px;
+	left: 136px;
+	width: 56px;
+	height: 16px;
+}
+.inputTextBox_5 {
+	top: 547px;
+	left: 136px;
+	width: 56px;
+	height: 16px;
+}
+.inputTextBox_6 {
+	top: 713px;
+	left: 443px;
+	width: 102px;
+	height: 16px;
+}
+.inputTextBox_7 {
+	top: 774px;
+	left: 281px;
+	width: 52px;
+	height: 16px;
+}
+.inputTextBox_8 {
+	top: 715px;
+	left: 136px;
+	width: 25px;
+	height: 17px;
+}
+.inputTextBox_9 {
+	top: 723px;
+	left: 423px;
+	width: 25px;
+	height: 15px;
+}
+.choiceBoxStyle {
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+.quiz_5 .checkBoxContainer {
+	position: relative;
+	top: 628px;
+	left: 51px;
+	font-size: 14px;
+	z-index: 13;
+	font-family: BatangMedium;
+}
+.quiz_6 .checkBoxContainer {
+	position: relative;
+	top: 4px;
+	left: 391px;
+	font-size: 14px;
+	z-index: 13;
+	font-family: BatangMedium;
+}
+.answerText {
+    position: absolute;
+    top: 3px;
+    left: 51px;
+    width: 260px;
+    color: #000;
+    font-size: 14px;
+    font-family: NanumGothic;
+}
+.slideBox .innerTab.slideTab > div {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #666666;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+.qCheckImg.ftest {
+	position: absolute;
+	    z-index: 1;
+}
+.qCheckImg.ftest.wrong {
+	background: url(../images/common/qCheckImg_wrong.png) no-repeat;
+	background-size: contain;
+	width: 30px;
+	height: 65px;
+	margin-left: 18px;
+
+}
+
+.qCheckImg.ftest.answer {
+	background: url(../images/common/qCheckImg_answer.png) no-repeat;
+	background-size: contain;
+	width: 82px;
+	height: 84px;
+}

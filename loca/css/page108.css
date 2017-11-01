@@ -1,0 +1,132 @@
+.contentsArea {
+	background-color: #ffffff;
+}
+
+.bg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 768px;
+	height: 1024px;
+	background: url('../bg/page108/bg_01.png') no-repeat;
+	background-size: contain;
+	opacity: 0.4;
+}
+.topArea {
+	width: 768px;
+	height: 209px;
+	background: url('../images/common/img_chapterTop.png') no-repeat;
+	background-size: contain;
+}
+.titleText {
+	top: 116px;
+	left: 84px;
+	width: 135px;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 1.08;
+}
+.textBal {
+	top: 26px;
+	left: 346px;
+	width: 384px;
+	font-size: 14px;
+	font-family: NanumGothicB;
+	line-height: 23px;
+	letter-spacing: 0.1px;
+	text-align: justify;
+
+}
+.contentsText {
+	top: 297px;
+	left: 31px;
+	width: 462px;
+	text-align: justify;
+	line-height: 26px;
+}
+figure .capMark {
+	margin-top: 2px;
+}
+figure figcaption > span {
+	top: -4px;
+}
+figure figcaption .figureText {
+	width: 330px;
+	margin-top: 3px;
+}
+.helpPopBtn {
+	top: 59px;
+	left: 232px;
+}
+.qMark {
+	top: 135px;
+	left: 347px;
+}
+.quizText {
+	position: absolute;
+	top: 132px;
+	left: 364px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: NanumGothicB;
+}
+.inputText {
+	top: 160px;
+	left: 348px;
+	width: 364px;
+	height: 17px;
+}
+.findWrite {
+	top: 297px;
+	left: 523px;
+}
+.inputTextArea {
+	top: 339px;
+	left: 532px;
+	width: 182px;
+	height: 25px;
+}
+.target_1.textBallon .bottom {
+	top: 51px;
+	left: 76.4%;
+}
+
+.target_2.textBallon {
+	top: 85px;
+	left: 227px;
+	width: 195px;
+}
+.target_3.textBallon {
+	top: 284px;
+	left: 130px;
+	width: 291px;
+}
+.target_3.textBallon .tailR{
+	left: 59%;
+}
+
+.target_4.textBallon {
+	top: 223px;
+	left: 133px;
+	width: 516px;
+}
+.target_4.textBallon .bottom {
+	top: 310px;
+    left: 76%;
+}
+.target_4 .ballonText {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	margin-right: 12px;
+	line-height: 29px;
+}
+.contentsTitle {
+	top: 246px;
+	left: 31px;
+}
+
+.quiz_1 .textBallon .bottom {
+	top: 47px;
+	left: 74.9%;
+}

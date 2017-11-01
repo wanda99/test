@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: NanumGothicB;
+	src: url("../font/woff/NanumGothicBold.woff");
+}
+@font-face {
+	font-family: NanumGothicEB;
+	src: url("../font/woff/NanumGothicExtraBold.woff");
+}
+@font-face {
+	font-family: NanumMyeongjoB;
+	src: url("../font/woff/NanumMyeongjoBold.woff");
+}
+@font-face {
+	font-family: NanumMyeongjoEB;
+	src: url("../font/woff/NanumMyeongjoExtraBold.woff");
+}
+@font-face {
+	font-family: NotoB;
+	src: url("../font/woff/NotoSans-Bold.woff");
+}
+@font-face {
+	font-family: NotoM;
+	src: url("../font/woff/NotoSans-Medium.woff");
+}
+@font-face {
+	font-family: NotoCJKkrB;
+	src: url("../font/woff/NotoSansCJKtc-Bold.woff");
+}
+@font-face {
+	font-family: NotoCJKkrL;
+	src: url("../font/woff/NOTOSANSCJKKR-LIGHT.woff");
+}
+@font-face {
+	font-family: NotoCJKkrR;
+	src: url("../font/woff/NOTOSANSCJKKR-REGULAR.woff");
+}
+@font-face {
+	font-family: NotoCJKkrBk;
+	src: url("../font/woff/NOTOSANSCJKKR-BLACK.woff");
+}
+@font-face {
+	font-family: NotoCJKkrT;
+	src: url("../font/woff/NOTOSANSCJKKR-THIN.woff");
+}
+@font-face {
+	font-family: NotoCJKkrDL;
+	src: url("../font/woff/NOTOSANSCJKKR-DEMILIGHT.woff");
+}
+
+@font-face {
+	font-family: BatangBold;
+	src: url("../font/woff/KoPubBatangBold.woff");
+}
+@font-face {
+	font-family: BatangLight;
+	src: url("../font/woff/KoPubBatangLight.woff");
+}
+@font-face {
+	font-family: BatangMedium;
+	src: url("../font/woff/KoPubBatangMedium.woff");
+}
+@font-face {
+	font-family: DotumBold;
+	src: url("../font/woff/KoPubDotumBold.woff");
+}
+@font-face {
+	font-family: DotumLight;
+	src: url("../font/woff/KoPubDotumLight.woff");
+}
+@font-face {
+	font-family: DotumMedium;
+	src: url("../font/woff/KoPubDotumMedium.woff");
+}
+
+.NanumGothic 		{ font-family: NanumGothic; } /**/
+.NanumGothicB 		{ font-family: NanumGothicB; } /**/
+.NanumGothicEB 		{ font-family: NanumGothicEB; } /**/
+
+.NanumMyeongjo 		{ font-family: NanumMyeongjo; }
+.NanumMyeongjoB 	{ font-family: NanumMyeongjoB; }
+.NanumMyeongjoEB 	{ font-family: NanumMyeongjoEB; }
+
+.BatangB { font-family: BatangBold; }/**/
+.BatangL { font-family: BatangLight; }
+.BatangM { font-family: BatangMedium; } /**/
+.DotumB { font-family: DotumBold; }/**/
+.DotumL { font-family: DotumLight; }
+.DotumM { font-family: DotumMedium; }

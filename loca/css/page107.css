@@ -1,0 +1,71 @@
+.contentsArea {
+	background-color: #ffffff;
+}
+.bg {
+	position: absolute;
+	width: 768px;
+	height: 1024px;
+	background: url('../bg/page107/bg.png') no-repeat;
+	background-size: contain;
+	opacity: 0.4;
+}
+.mediaContainer img{
+	position: absolute;
+	top: 233px;
+
+}
+.cloudWorld {
+	top: 112px;
+	left: 66px;
+}
+.worldText {
+	top: 118px;
+	left: 83px;
+}
+
+.mediaCaption {
+	position: absolute;
+	top: 641px;
+	left: 73px;
+	color: #333333;
+	font-family: NanumGothicB;
+	font-size: 12px;
+}
+.selfCheckBox {
+	top: 761px;
+	left: 156px;
+	    width: 541px;
+}
+.selfCheckBox .selfCheckContents {
+	width: 539px;
+}
+.selfCheckBox .selfTitle {
+	position: absolute;
+    top: 23px;
+    left: 33px;
+    text-align: justify;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+.postCheckBox {
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+.selfCheckArea {
+	position: absolute;
+	top: 57px;
+	left: 33px;
+	font-size: 14px;
+}
+.selfCheckArea span{
+	display: inline-block;
+	margin-right: 100px;
+	line-height: 30px;
+}
+.selfCheckArea span:nth-child(3),
+.selfCheckArea span:nth-child(7),
+.selfCheckArea span:nth-child(11),
+.selfCheckArea span:nth-child(15){
+	margin-right: 0px;
+}

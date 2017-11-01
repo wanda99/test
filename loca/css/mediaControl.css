@@ -1,0 +1,812 @@
+@charset "utf-8";
+
+
+/***********************************/
+/* rolePlay */
+
+.roleplaying .videoWrap{
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	width: 660px;
+	height: 100%;
+	margin: 0 auto;
+	background: none; 
+	border-radius: 15px;
+}
+.roleGroup {
+	position: relative;
+	top: 70px;	
+	width: 649px;
+	height: 70px;
+	background: url(../images/controls/vdo/roleplayhead.png) no-repeat;
+	background-size: 649px 70px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #fff;
+}
+.roleGroup.red {
+	position: relative;
+	top: 70px;	
+	width: 649px;
+	height: 74px;
+	background: url(../images/controls/vdo/roleTitleBox_red.png) no-repeat;
+	background-size: 649px 74px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.roleGroup.blue {
+	position: relative;
+	top: 70px;	
+	width: 649px;
+	height: 70px;
+	background: url(../images/controls/vdo/roleTitleBox_blue.png) no-repeat;
+	background-size: 649px 70px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.roleGroup.purple {
+	position: relative;
+	top: 70px;	
+	width: 649px;
+	height: 70px;
+	background: url(../images/controls/vdo/roleTitleBox_purple.png) no-repeat;
+	background-size: 649px 70px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.aniGroup {
+	position: relative;
+	top: 70px;	
+	width: 649px;
+	height: 70px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.aniGroup.red {
+	background: url(../images/controls/vdo/aniingTitleBox_red.png) no-repeat;
+	background-size: 649px 74px;
+}
+.aniGroup.blue {
+	background: url(../images/controls/vdo/aniingTitleBox_blue.png) no-repeat;
+	background-size: 649px 70px;
+}
+.aniGroup.purple {
+	background: url(../images/controls/vdo/aniingTitleBox_purple.png) no-repeat;
+	background-size: 649px 70px;
+}
+
+.roleGroup div {
+	display: inline-block;
+}
+
+/* 롤플레이 이름 말풍선 */
+.roleImg{
+	margin-top: 100px;
+	width:658px;
+}
+.roleName{
+	position: absolute;
+	text-align: center;
+	padding: 10px 30px;
+	background: #F5821F;
+	border-radius: 10px;
+	font-size: 26px;
+	font-family: NotoB;
+	color: #fff;
+}
+.roleName.blue{
+	background: #50a6cc;
+}
+.roleName.purple{
+	background: #a55c9c;
+}
+.roleName.left:after{
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 12px;
+	width: 40px;
+	height: 30px;
+	background: url(../images/common/roleName_left.png) no-repeat;
+}
+.roleName.right:after{
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	right: 12px;
+	width: 40px;
+	height: 30px;
+	background: url(../images/common/roleName_right.png) no-repeat;
+}
+
+.roleName.left.blue:after{
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 12px;
+	width: 40px;
+	height: 30px;
+	background: url(../images/common/roleName_left_blue.png) no-repeat;
+}
+.roleName.right.blue:after{
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	right: 12px;
+	width: 40px;
+	height: 30px;
+	background: url(../images/common/roleName_right_blue.png) no-repeat;
+}
+
+.roleName.left.purple:after{
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 12px;
+	width: 40px;
+	height: 30px;
+	background: url(../images/common/roleName_left_purple.png) no-repeat;
+}
+.roleName.right.purple:after{
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	right: 12px;
+	width: 40px;
+	height: 30px;
+	background: url(../images/common/roleName_right_purple.png) no-repeat;
+}
+
+
+.roleplaying .popHeader{
+	position: absolute;
+	left: 0px;
+	width: 718px;
+	height: 38px;
+}
+.roleplaying .popHeader.red{
+	background: url(../images/controls/vdo/roleToplineBox_red.png) no-repeat;
+	background-size: 718px 38px;
+}
+.roleplaying .popHeader.blue{
+	background: url(../images/controls/vdo/roleToplineBox_blue.png) no-repeat;
+	background-size: 718px 38px;
+}
+.roleplaying .popHeader.purple{
+	background: url(../images/controls/vdo/roleToplineBox_purple.png) no-repeat;
+	background-size: 718px 38px;
+}
+
+
+.aniing .popHeader{
+	position: absolute;
+	left: 0px;
+	width: 718px;
+	height: 38px;
+	background: url(../images/controls/vdo/roleToplineBox_red.png) no-repeat;
+	background-size: 718px 38px;
+}
+.aniing .popHeader.red{
+	background: url(../images/controls/vdo/roleToplineBox_red.png) no-repeat;
+	background-size: 718px 38px;
+}
+
+.rolePlay .rolePlayChar {
+	position: absolute;
+	pointer-events: auto;
+	width: 100px;
+	border-radius: 50%;    
+}
+
+.rolePlayChar {	
+	width: 70px;
+	height: 43px;
+	font-size: 20px;
+	text-align: right;
+	cursor: pointer;
+}
+
+#rolechar1 {
+	position: absolute;
+	top: 13px;
+	left: 220px;
+	width: 135px;
+	padding-left: 30px;
+	text-align: left;
+	font-family: NotoCJKkrR;
+}
+#rolechar2 {
+	position: absolute;
+	top: 13px;
+	left: 380px;
+	width: 135px;
+	padding-left: 30px;
+	text-align: left;
+	font-family: NotoCJKkrR;
+}
+
+.rolePlayChar .roleCheck {
+	position: absolute;
+	top: 7px;	
+	left: 0;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.rolePlayChar .roleCheck img {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+}
+
+
+.rolePlayStartBtn {
+	position: absolute;        
+	font-size: 16px;
+	top: 13px;
+	right: 20px;    
+	cursor: pointer; 
+	color: #fff;	
+	width: 67px;	
+	height: 29px;
+	text-align: center;
+	font-family: NotoM;
+
+}
+.rolePlayStartBtn:hover {    
+	opacity: 0.8;
+}
+
+.rolePlayStartBtn.red {
+	background: url(../images/controls/vdo/roleStart_red.png) no-repeat;
+	background-size: 67px 29px;
+}
+.rolePlayStartBtn.blue {
+	background: url(../images/controls/vdo/roleStart_blue.png) no-repeat;
+	background-size: 67px 29px;
+}
+.rolePlayStartBtn.purple {
+	background: url(../images/controls/vdo/roleStart_purple.png) no-repeat;
+	background-size: 67px 29px;
+}
+
+.rolePlayStartBtn span{
+	pointer-events: none;
+	display: inline-block;
+	margin-left: 18px;
+	margin-top: 1px;
+}
+
+.selectContainer {
+	position: absolute;
+	color: #666;
+	font-size: 22px;
+	font-family: NotoM;
+}
+.selectContainer > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+.selectContainer .selectBox {
+	padding: 4px;
+	margin-top: 6px;
+	border-radius: 50%;
+	border: 2px solid #666;
+	box-sizing: border-box;
+}
+.selectContainer .selectBox > div {
+	width: 16px;
+	height: 16px;
+	background: #666;
+	border-radius: 50%;
+	color: #666;
+}
+.RPSelectObj { cursor: pointer; }
+.RPViewObj { opacity: 0; }
+
+.rolePalyAniPage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 40px;
+	line-height: 1.2;
+	word-spacing: 1px;
+	font-family: NotoB;
+	text-align: justify;
+	letter-spacing: -1.5px;
+	box-sizing: border-box;
+	border-color: #9cafad;
+	background: #000;
+	z-index: 1;
+}
+
+.roleSelectedCharContainer {
+	position: absolute;
+	top: 25px;
+	right: 5px;
+	z-index: 600;
+}
+.roleSelectedCharContainer > div {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0 4px;
+	border-radius: 50%;
+	border: 4px solid #ccc;
+}
+.roleText{
+	display: inline-block;
+	width:570px;
+	margin-left: 5px;
+}
+.roleText.roleCol {
+	color: #DF2020;
+}
+
+.roleplaying .talkUl{
+	position: relative;
+	width:660px;
+}
+
+.aniScriptViewBtn {
+	position: absolute;
+	right: 50px;
+	bottom: 4px;
+	width: 86px;
+	height: 37px;
+	/*background: url(../../images/12/controls/aniScriptText_view.png) no-repeat;*/
+	background-size: 86px;
+}
+.aniScriptViewBtn:hover {
+	/*background: url(../../images/12/controls/aniScriptText_view_over.png) no-repeat;*/
+	background-size: 86px;
+}
+
+.aniScriptContainer {
+	position: absolute;
+	bottom: 51px;
+	left: 0px;
+	width: 100%;
+	height: 50px;	
+	text-align: center;	
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,1));
+	background: -o-linear-gradient(bottom, rgba(0,0,0,0.15), rgba(0,0,0,1));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,0.15), rgba(0,0,0,1));
+	background: linear-gradient(to bottom, rgba(0,0,0,0.15), rgba(0,0,0,1));
+	z-index: 2;
+	padding: -3px 10px 0px 10px;
+}
+.aniScriptTextBox {	
+	position: absolute;
+	left: 0;
+	right: 0;
+	color: #fff;	
+	margin-top: 6px;
+	font-size: 28px;
+	text-align: center;
+	text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+.aniScriptTextBox.EN { font-family: NanumGothicB; }
+.aniScriptTextBox.KR { font-family: NanumGothicB; }
+
+
+.aniScriptLangBtn {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;			
+	z-index: 1000;	
+	cursor: pointer;
+	font-size: 13px;
+	text-align: center;
+
+	color: #fff;
+	width: 70px;
+	padding: 3px 0;
+	border: 1px solid #fff;	
+	border-radius: 5px;
+}
+
+.aniScriptHideBtn {
+	position: absolute;
+	bottom: 10px;
+	right: 105px;			
+	z-index: 1000;	
+	cursor: pointer;
+	font-size: 13px;
+	text-align: center;
+
+	color: #fff;
+	width: 80px;
+	padding: 3px 0;
+	border: 1px solid #fff;	
+	border-radius: 5px;
+}
+
+
+
+
+/****************************************
+*		    mediaControls.css           *
+****************************************/
+.videoWrap {
+	position: absolute;
+	top: 30px;
+	left: 45px;
+	width: 655px;
+	/* height: 485px; */
+	margin: 0 auto;
+	background-color: none;
+	/* border-radius: 15px; */
+	/*outline: 1px solid;*/
+	/* height: 500px; */
+}
+
+.videoWrap .videoContainer {
+	position: relative;
+	width: 100%;
+	/* height: 100%; */
+	margin: 0 auto;
+	background-color: #000;
+	font-size: 0px;
+}
+.videoWrap .videoControls {	
+	position: relative;
+	width: 100%;
+	height: 57px;
+	background-color: #ffffff;
+	border: 2px solid #1cb6da;
+	box-sizing: border-box;
+}
+
+/*.videoWrap .controlsbg {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 41px;	
+	
+	background: -moz-linear-gradient(to bottom, #3b3b3b 15%, #383838 60%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#3b3b3b), color-stop(60%,#383838));
+	background: -webkit-linear-gradient(to bottom, #3b3b3b 15%, #383838 60%);
+	background: -o-linear-gradient(to bottom, #3b3b3b 15%, #383838 60%);
+	background: -ms-linear-gradient(to bottom, #3b3b3b 15%, #383838 60%);
+	background: linear-gradient(to bottom, #3b3b3b 15%, #383838 60%);
+	opacity: 0.95;
+}
+*/
+
+.videoWrap video {	
+	width: 100%;
+	/*height: 100%;*/
+	cursor: pointer;
+}
+.videoWrap .thumImg {
+	position: absolute;
+	top: 0;
+	left: 0;	
+	width: 100%;
+	/*height: 100%;	*/
+}
+
+/*.vdotop {
+	position: absolute;
+	top: 170px !important;		
+	width: 100% !important;	
+	height: auto !important;
+	margin: 0 auto !important;		
+	background-color: #000;		
+}*/
+.adotop {
+	position: relative !important;	
+	/*margin-top: 45px !important;	*/
+	margin-top: 37px !important;
+	height: auto !important;		
+	background-color: #000;		
+}
+.alladotop {
+	position: absolute !important;	
+	bottom: 25px !important;	
+	height: auto !important;		
+	background-color: #000;		
+}
+
+
+.videoControls ul {
+	display: table-cell;
+}
+
+.controls {	
+	position: absolute;	
+	cursor: pointer;
+	z-index: 100;	
+}
+
+#play {	
+	top: 18px;	
+	left: 20px;	
+}
+#play img {	
+	width: 17px;
+	height: 23px;		
+}
+#stop {		
+	top: 19px;
+	left: 62px;					
+}
+#stop img {	
+	width: 19px;
+	height: 20px;	
+}
+
+.soundicon {	
+	position: absolute;	
+	top: 16px;
+	right: 201px;
+	cursor: pointer;	
+}
+
+.soundicon img {	
+	width: 25px;
+	height: 25px;
+}
+
+.time {	
+	position: absolute;	
+	top: 22px;
+	left: 119px;
+	width: 150px;
+	font-size: 12px;
+	color: #989898;	
+	letter-spacing: 1px;		
+}
+
+#curtime {	
+	color: #000000 !important;
+}
+#durtime {
+	color: #adadad !important;
+}
+
+
+#playBar {	
+	position: absolute;	
+	/*border-radius: s12px;   */
+	background: transparent;	
+	left: 10px;	        		            
+	z-index: 600;       
+}
+
+#playVolume {	
+	position: absolute;
+	border-radius: 12px;
+	background: transparent;
+	top: 13px;
+	left: 456px;
+	width: 71px;
+	height: 28px;		
+}
+
+.caption {
+	position: absolute;		
+	top: 20px;
+	right: 105px;			
+	z-index: 1000;	
+	cursor: pointer;
+	font-size: 13px;
+	text-align: center;
+
+	color: #fff;
+	width: 85px;
+	padding: 3px 0;
+	border: 1px solid #fff;	
+	border-radius: 5px;
+}
+
+.cap {	
+	position: absolute;
+	top: 16px;
+	right: 32px;
+	z-index: 1000;
+	cursor: pointer;
+}
+
+.cap img {	
+	width: 25px;
+	height: 30px;
+}
+
+
+.fullsize {	
+	position: absolute;
+	top: 16px;
+	right: 75px;
+	z-index: 1000;
+	cursor: pointer;
+	/*text-align: center;
+	color: #fff;
+	width: 75px;
+	padding: 3px 0;
+	font-size: 13px;
+	border: 1px solid #fff;	
+	border-radius: 5px;*/
+}
+
+.fullsize img {
+	width: 25px;
+	height: 25px;
+}
+
+
+.fullsizeMod_videoWrap {		
+	left: 435px;		
+}
+.fullsizeMod_ani {		
+	left: 335px;		
+}
+
+
+.fullMod_videoWrap {	
+	top: 0 !important;	
+	width: 100% !important;			
+	height: 100% !important;	    
+	z-index: 500;
+}
+
+.fullMod_videoControls {		
+	width: 100% !important;			    	
+}
+
+
+.pageMovPlayBtn {	
+	position: absolute;													
+	top: 0;  
+	bottom: 0;  
+	left: 0;  
+	right: 0;  
+	margin: auto;          
+	text-align: justify;	
+	
+	width: 70px;
+	height: 70px;
+	background: url(../images/controls/pageMovPlayBtn.png) no-repeat;
+	background-size: 70px 70px;
+	z-index: 1000;
+	opacity: 1;
+	cursor: pointer;
+}
+.pageMovPlayBtn:hover {	
+	z-index: 1000;
+	opacity: 0.8;
+}
+
+
+.fullPlay_videoWrap {
+	position: absolute;
+	top: 255px;
+	left: 500px;
+
+	width: 150px;
+	height: 150px;
+	background: url(../images/controls/pageMovPlayBtn.png) no-repeat;
+	background-size: 150px 150px;
+	z-index: 1000;
+	opacity: 0.8;
+
+	pointer-events: auto;
+	cursor: pointer;
+}
+.fullPlay_videoWrap:hover {
+	z-index: 1000;
+	opacity: 1;
+}
+
+
+.playMod {	    
+	position: absolute;													
+	top: 0 !important;  
+	bottom: 0;  
+	left: 0 !important;  
+	right: 0;  
+	margin: auto;          
+	text-align: justify;	    
+}
+
+
+.captionBox {
+	position: absolute;
+	bottom: 56px;
+	width: 100%;
+	height: 45px;	
+	visibility: hidden;
+}
+
+.captionbg {
+	width: 100%;
+	height: 100%;	
+	background: #fff;
+	opacity: 0.3;	
+}
+.captionTxt {
+	position: absolute;
+	bottom: 7px;
+	width: 94.5%;
+	height: 20px;
+	padding: 7px 15px;		
+	text-align: center;
+
+	color: #000;
+	font-size: 20px;
+	font-family: NanumGothicB; 	
+
+	text-shadow: 0 2px 1px #fff;
+}
+
+
+
+/* chrome, safari, opera */
+input[type=range] {	   	
+	-webkit-appearance: none;            
+	cursor: pointer;  	
+	width: 96%;
+	height: 20px;
+	padding: 0;		
+}
+input[type=range]:focus {
+	outline: none;
+	border: none;    
+}
+input[type=range]::-webkit-slider-runnable-track {        
+	border-color: transparent;
+	color: transparent;
+	border: none;
+	/*background: #fffdfe;*/
+	background: #808080;
+	height: 5px;        
+	border-radius: 10px;    
+}
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;    
+	border: none;
+	width: 13px;
+	height: 13px;    
+	border-radius: 50%;
+	background: #E9E9E9;
+	margin-top: -4px;    
+	z-index: 1000;    
+}
+
+
+/* internet explorer 10 + */
+input[type=range]::-ms-track {    
+	background: transparent;        
+	border-color: transparent;
+	border-width: 6px 0;    
+	color: transparent;    
+	width: 100%;
+	height: 20px;        
+	border-radius: 10px;               
+}
+input[type=range]::-ms-fill-lower {    
+	background: #33BAFF;
+	height: 5px;     
+	border-radius: 10px;           
+}
+input[type=range]::-ms-fill-upper {
+	background: #fffdfe;
+	height: 5px;     
+	border-radius: 10px;           
+}
+input[type=range]::-ms-thumb {
+	border: none;    
+	width: 13px;
+	height: 13px;    
+	border-radius: 50%;
+	background: #E9E9E9;   
+	z-index: 1000;      
+}

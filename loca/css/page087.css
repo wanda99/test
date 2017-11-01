@@ -1,0 +1,119 @@
+.bg {
+	position: absolute;
+	width: 768px;
+	height: 1024px;
+	background: url('../bg/page087/bg_01.png') no-repeat;
+	background-size: contain;
+	opacity: 0.4;
+}
+
+.popbox.zoom hr {
+  left: 20px;
+  width: 659px;
+  position: absolute;
+}
+.table01 th {
+	    border-bottom: 1px solid #fff;
+}
+.postCheckBox.postCheck {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	vertical-align: middle;
+	margin-left: 6px;
+}
+.popbox.zoom .popupHeader {
+    height: 17.7px;
+    letter-spacing: 0px;
+    padding: 8px 20px;
+}
+
+.writeWay {
+	position: absolute;
+	    top: -9px;
+	    left: 11px;
+	    width: 170px;
+	    height: 32px;
+	    background: url(../images/page087/page087_01.png) no-repeat;
+	    background-size: contain;
+	    padding-top: 2px;
+	    font-size: 14px;
+	    font-family: NanumGothicB;
+	    color: #ffffff;
+}
+
+.writeWay > span {
+    margin-right: 10px;
+		    line-height: 28px;
+}
+
+.contentsArea {
+	position: absolute;
+	width: 768px;
+	height: 1024px;
+	background: url(../images/common/share_bg.png) no-repeat;
+	background-size: contain;
+}
+.topArea {
+	position: absolute;
+	top: 63px;
+	left: 66px;
+	font-family: NanumGothicB;
+	font-size: 16px;
+	line-height: 24px;
+	color: #835604;
+}
+.writeWay {
+	top:-13px;
+}
+.writeWayBorder {
+	top: 243px;
+	left: 57px;
+	width: 651px;
+	height: 142px;
+}
+.referBorder {
+	top: 795px;
+	left: 57px;
+	width: 652px;
+	height: 143px;
+}
+.siteArea {
+	width: 230px;
+	font-family: NanumGothic;
+	font-size: 14px;
+	line-height: 26px;
+}
+.tipIcon { display:inline-block; width:26px; height:21px; background:url("../images/common/tip.png") no-repeat 0 / cover; vertical-align: middle;}
+
+
+.popbox.finalpopbox.full .iconCircle img {
+	position: relative;
+	top: 6px;
+	left: 6px;
+}
+.question_1 .bogi {
+	top: 134px;
+	left: 57px;
+	width: 315px;
+	height: 205px;
+}
+.question_2 .bogi {
+	top: 445px;
+	left: 57px;
+	width: 315px;
+	height: 80px;
+}
+.question_2 .bogi .bogiContents {
+	top: 16px;
+	left: 19px;
+	width: 281px;
+	line-height: 26px;
+	text-indent: 9px;
+}
+.question_4 .bogi {
+	top: 445px;
+	left: 411px;
+	width: 305px;
+	height: 80px;
+}
